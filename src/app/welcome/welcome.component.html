@@ -1,0 +1,20 @@
+                                        <!--Welcome Container with Rules-->
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to Quizz Program</h1>
+    <p class="col-md-8 fs-4">This Quizz will contains of total 10 questions. Each Questions holds 10 points.</p>
+    <h4>Rules</h4>
+    <ol>
+        <li>if you answer is correct you will gain 10 Points</li>
+        <li>if you answer is in-correct you will gain 10 Points</li>
+        <li>Time Allocation of 10 Secs for each questions</li>
+        <li>Refreshing page will refresh the Quizz Program</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align: center;">! ! ! Best Of Luck ! ! !</h1>
+    
+                                        <!--Welcome Container with mentioning the User name-->
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name : </label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuizz()">Start the Quizz ! ! !</button>
+</div>
